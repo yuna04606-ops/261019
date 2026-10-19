@@ -1,0 +1,5 @@
+function doGet() {
+  return HtmlService.createHtmlOutputFromFile('Index')
+    .setTitle('StudyNote AI | 교안 요약 & 예상문제')
+    .addMetaTag('viewport', 'width=device-width, initial-scale=1');
+}
